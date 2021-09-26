@@ -1,4 +1,4 @@
-# seanic
+# seenic
 
 ## Project setup
 ```
