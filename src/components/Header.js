@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navbar, Container} from 'react-bootstrap'
 import Logo from '../img/Logo_NBS.png'
+import { Typography } from '@mui/material'
 
 class Header extends React.Component{
   render(){
@@ -9,6 +10,9 @@ class Header extends React.Component{
         <Container>
           <Navbar.Brand href="#home">
             <img src={Logo} height="30" className="d-inline-block align-top m-2" alt="React Bootstrap logo" />
+            <Typography variant="h3" gutterBottom component="div">
+              Seenic
+            </Typography>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
